@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+  /* background-color: #F1F0F1; */
+  background-color: white;
+}
+
+
+#name-full {
+  /* font-family: Lato; */
+  font-family: SF UI Text;
+  font-weight: 500;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 85px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  font-family: SF UI Text;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  color: blue;
+}
+
+#all {
+  font-family: SF UI Text;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+
+#mywork {
+  float: left;
+  text-align: left;
+  margin-left: 100px;
+  font-family: SF UI Text;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4A4A4A;
+  z-index: 10;
+  margin-bottom: -10px;
+}
+
+#coffee{
+  float: right;
+  margin-top: 15px;
+  margin-right: 345px;
+}
+
+/* projects */
+
+#work-des {
+  height: 130px;
+}
+
+.wrap {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.proj1 {
+  /* margin-left: 100px; */
+  flex: 2;
+  order: 1;
+}
+
+.proj1 h3 {
+  text-align-last: center;
+  font-family: SF UI Text;
+}
+
+.proj2 h3 {
+  font-family: SF UI Text;
+}
+
+.proj1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.proj2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.proj1 a:hover {
+  color: blue;
+}
+
+.proj2 a:hover {
+  color: blue;
+}
+
+.proj1 h4 {
+  margin-top: -10px;
+  font-family: SF UI Text;
+}
+
+.proj2 h4 {
+  margin-top: -10px;
+  font-family: SF UI Text;
+}
+
+.proj1 p {
+  font-family: SF UI Text;
+}
+
+.proj2 p {
+  font-family: SF UI Text;
+}
+
+.proj2 {
+  flex: 2;
+  order: 2;
+}
+
+/* about page */
+
+.about-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#description {
+  font-family: SF UI Text;
+  margin-top: 90px;
+  margin-right: 50px;
+  margin-left: 100px;
+  flex: 1;
+  order: 1;
+}
+
+#bio-pic {
+  margin-right: 200px;
+  flex: 1;
+  order: 2;
+}
+
+/* myoutlines page */
+#phone-cover {
+  text-align: center;
+  /* margin-top: -10px;
+  margin-left: -130px; */
+}
+
+#des1 {
+  margin-top: 50px;
+  font-family: SF UI Text;
+  font-size: 18px;
+  text-align: center;
+}
+
+#process {
+  font-family: SF UI Text;
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.first {
+  margin-top: 40px;
+  font-family: SF UI Text;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.second {
+  font-family: SF UI Text;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.data {
+  text-align: center;
+}
+
+.research {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.tag {
+  margin-top: 40px;
+  font-family: SF UI Text;
+  margin-left: 100px;
+}
+.bottom {
+  margin-top: -10px;
+  font-family: SF UI Text;
+  margin-left: 100px;
+}
+
+#full {
+  margin-top: 50px;
+}
+
+#full-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#left-wrap {
+  flex: 1;
+  order: 1;
+}
+
+#right-wrap {
+  margin-right: 100px;
+  flex: 1;
+  order: 2;
+}
+
+#footer1 {
+  background-color: #212121;
+  margin: 0;
+  height: 500px;
+  padding: 0;
+  border: 0;
+  width: 50%;
+  float: left;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+#contact {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: SF UI Text;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 1px;
+}
+
+#footer2 {
+  background-color: white;
+  margin: 0;
+  height: 500px;
+  padding: 0;
+  border: 0;
+  width: 50%;
+  float: right;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+#contact2 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: SF UI Text;
+  font-weight: 300;
+  color: black;
+  letter-spacing: 1px;
+
+}
+
+#foot-wrap {
+  margin-top: 70px;
+}
+
+#email {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 200px;
+  font-size: 14px;
+  font-family: SF UI Text;
+  font-weight: lighter;
+  color: white;
+}
+
+#linkedin {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 185px;
+}
+
+#instagram {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 185px;
+}
+
+#github {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 185px;
+}
+
+#medium {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 187px;
+}
